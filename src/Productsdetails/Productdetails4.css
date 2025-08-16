@@ -73,6 +73,16 @@
   background-color: #ddd;
 }
 
+.product4-icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.product4-icon-button:hover {
+  transform: scale(1.1);
+}
+
 /* ================grid section========== */
 .earrings-tittle{
     font-size: 1vw;

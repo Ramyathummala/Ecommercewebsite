@@ -42,17 +42,17 @@ const ProductDetails4 = () => {
       price: 10,
       rating: 4,
       offer: "2% cashback",
-      image:chandelier,
+      image: chandelier,
     },
   ];
-     const [filters, setFilters] = useState({
-            rating: [],
-            category: [],
-            price: [],
-            color: [],
-            offer: [],
-          });
-           const handleFilterChange = (type, value) => {
+  const [filters, setFilters] = useState({
+    rating: [],
+    category: [],
+    price: [],
+    color: [],
+    offer: [],
+  });
+  const handleFilterChange = (type, value) => {
     setFilters((prev) => {
       const current = prev[type] || [];
       const updated = current.includes(value)
@@ -62,7 +62,7 @@ const ProductDetails4 = () => {
     });
   };
 
-    const filteredProducts = product4.filter((product) => {
+  const filteredProducts = product4.filter((product) => {
     const matchRating =
       filters.rating.length === 0 || filters.rating.includes(product.rating);
     const matchCategory =
@@ -103,7 +103,10 @@ const ProductDetails4 = () => {
               <button className="product4-icon-button">
                 <SearchIcon style={{ width: "2vw", height: "2vw" }} />
               </button>
-              <button className="produc4-icon-button">
+              {/* <button className="produc4-icon-button">
+                <ShoppingBagIcon style={{ width: "2vw", height: "2vw" }} />
+              </button> */}
+              <button className="product4-icon-button">
                 <ShoppingBagIcon style={{ width: "2vw", height: "2vw" }} />
               </button>
               <div className="product4-avatar"></div>
@@ -114,7 +117,7 @@ const ProductDetails4 = () => {
       <div className="earrings-tittle">
         <h1>Earing Collections</h1>
       </div>
-     <main className="product4-layout">
+      <main className="product4-layout">
         <aside className="product4-filters">
           <div className="product4-filter-section">
             <h3>Discount Offer</h3>
@@ -144,7 +147,7 @@ const ProductDetails4 = () => {
 
           <div className="product4-filter-section">
             <h3>Categories</h3>
-            {["Studs", "Dangles", "Chandelier","Earrings"].map((cat) => (
+            {["Studs", "Dangles", "Chandelier", "Earrings"].map((cat) => (
               <label key={cat}>
                 <input
                   type="checkbox"

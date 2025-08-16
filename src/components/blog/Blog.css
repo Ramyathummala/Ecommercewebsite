@@ -62,7 +62,7 @@
 }
 
 .blog-btn {
-  background: linear-gradient(to right, #f78ca0, #f9748f);
+  background: linear-gradient(to right, #ff3d7f, #ff007f);
   color: #fff;
   border: none;
   padding: 0.6vw 1.5vw;
@@ -72,6 +72,6 @@
 }
 
 .blog-btn:hover {
-  background: linear-gradient(to right, #ff3d7f, #ff007f);
+  background: linear-gradient(to right, #ee5588, #f43d99);
 }
 

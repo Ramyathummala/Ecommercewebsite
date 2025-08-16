@@ -682,9 +682,11 @@ const Homepage = () => {
 
           <div className="promo indigo">
             <h2>23% off in all products</h2>
+          <Link to="/product2">
             <a href="#" style={{ fontSize: "1.2vw" }}>
               View Collection
             </a>
+        </Link>
             <div className="image-center mt">
               <img
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuDa--l4b0jtirZ9BN6dGozewXT9ory7CGIHjYMxnhfbSfM6m2fiOU-5CMekH-nDNX6QZ5I0TZ88cnG_tJve-i41hRKKcLitxFgXdkk8bPiSeei8J9Gkt5dahczVnpvCTn6fYPali0fO1l9VgLBMbrchyAzaU79YW85UAIjF_lqufDt4WAHY3JRZi46kLezN5tXw-GgUGJkX__lt0-vxfKV_r1PNztH21fMir8CuBEOayKGRtSNUMsaDiRGQ7NB8z4Ca7lxMmZ_Nl3c"
