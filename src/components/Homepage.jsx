@@ -331,64 +331,7 @@ const HairProducts = [
     image: "/images/product5.jpg",
   },
 ];
-// const categories = [
-//   {
-//     id: 1,
-//     title: "Hair Bows",
-//     price: "₹12.00",
-//     img: "https://lh3.googleusercontent.com/aida-public/AB6AXuCUHeuu2hEooR1scuiFthw9Absyvk00bXXZuMcwJwdt2yULvmZEmnmbG8cGeJuQW3GUEhdNG-jMF8R2BsU3_8SH9gxDl-Tf7vDVorsuIDQds8TJkHepdk7wzVqMstz8yfTjRWdYxhMIeQBdBX4sOdkl495_0-Kc7iwJU8VOgu3OCiuel4YSeVGuGjU4s5kNm8Rx5z6u_WrcmgSb9Wt6JxXTZefx5T_JEE-NVpC11NWw3DKLl95TZj4hwClglIXNEMlQjzHdIG8kj2g",
-//     viewLink: "#",
-//   },
-//   {
-//     id: 2,
-//     title: "Scrunchies",
-//     price: "₹8.00",
-//     img: "https://lh3.googleusercontent.com/aida-public/AB6AXuBo4-b-ypCGIPufV9RhAus0PtdpU8fZkCzRpaLxfHI6-6aZos1KEKb6ZxRxZk6eYX51BruX0YPyy9Leia2kRDpXK5k92cY_v4Hgs9ks4vNHlAO8ksEuHl0ueeMnwMZtydtYebQtg4fkaxW1PMk2idha4rFv_g7hvUY44W-_i0UFSXFywcSUnkriEpvi3YzCjQUabn240JNqxut9VEtsalre2MuoLsZnKGYdMrGUZckWxZFAazN2trguLPyhXpL3BxPRcM7hirdJItA",
-//     viewLink: "#",
-//   },
-//   {
-//     id: 3,
-//     title: "Claw Clips",
-//     price: "₹15.00",
-//     img: "https://lh3.googleusercontent.com/aida-public/AB6AXuC7C78TuRzDA08vF8dkNhvBnYZc-izxzXgghyAm8hm41UlWHUOifBeMiVPFOlVYlYS3xsFhATPm-I5IPCuIRyhe_Zd5BOK-19kAQgQkHMnnN_ZkpTtCHXC-qceWcwTuujBYneQyWZHWp3X2ONrcxo--E1UXkgPJrTTzkk8EyMFzpTOpKAy-srC4QDWmKzPF5djFguOX-AT17gvq9eZfrog91GhAi-Dt38gELUSUAdAXBkyuqMErhjxRKNc71c9CVcERpxS6iKwU2As",
-//     viewLink: "#",
-//   },
-//   {
-//     id: 4,
-//     title: "Earrings",
-//     price: "₹25.00",
-//     img: "https://lh3.googleusercontent.com/aida-public/AB6AXuBxtogccnMXhnGJ7xsnJDPbAkmxltgj0xS9QlWXpYmBdWEIR1vmStTjCsbZweVhnJTZWAa7iPp1-dZHuT4sFmQdL1_oxXTD7WgvF1Uyp1nLd8G_mbWNetT656RPbpil2YuFkMdBQkQqQGF4C3ua9oOASi6V_3y3oS2uWfWJkOL9R_exOQ-Hmc2vLx0i8pIxEq0v1nNe1ku_bBmp4pjzj-LAl7mqjuO83E0QFH6LqS1ASfxslunPn6nPl796btff_kSuGE4ATA9VG6c",
-//     viewLink: "#",
-//   },
-//   {
-//     id: 1,
-//     title: "Hair Bows",
-//     price: "₹12.00",
-//     img: "https://lh3.googleusercontent.com/aida-public/AB6AXuCUHeuu2hEooR1scuiFthw9Absyvk00bXXZuMcwJwdt2yULvmZEmnmbG8cGeJuQW3GUEhdNG-jMF8R2BsU3_8SH9gxDl-Tf7vDVorsuIDQds8TJkHepdk7wzVqMstz8yfTjRWdYxhMIeQBdBX4sOdkl495_0-Kc7iwJU8VOgu3OCiuel4YSeVGuGjU4s5kNm8Rx5z6u_WrcmgSb9Wt6JxXTZefx5T_JEE-NVpC11NWw3DKLl95TZj4hwClglIXNEMlQjzHdIG8kj2g",
-//     viewLink: "#",
-//   },
-//   {
-//     id: 2,
-//     title: "Scrunchies",
-//     price: "₹8.00",
-//     img: "https://lh3.googleusercontent.com/aida-public/AB6AXuBo4-b-ypCGIPufV9RhAus0PtdpU8fZkCzRpaLxfHI6-6aZos1KEKb6ZxRxZk6eYX51BruX0YPyy9Leia2kRDpXK5k92cY_v4Hgs9ks4vNHlAO8ksEuHl0ueeMnwMZtydtYebQtg4fkaxW1PMk2idha4rFv_g7hvUY44W-_i0UFSXFywcSUnkriEpvi3YzCjQUabn240JNqxut9VEtsalre2MuoLsZnKGYdMrGUZckWxZFAazN2trguLPyhXpL3BxPRcM7hirdJItA",
-//     viewLink: "#",
-//   },
-//   {
-//     id: 3,
-//     title: "Claw Clips",
-//     price: "₹15.00",
-//     img: "https://lh3.googleusercontent.com/aida-public/AB6AXuC7C78TuRzDA08vF8dkNhvBnYZc-izxzXgghyAm8hm41UlWHUOifBeMiVPFOlVYlYS3xsFhATPm-I5IPCuIRyhe_Zd5BOK-19kAQgQkHMnnN_ZkpTtCHXC-qceWcwTuujBYneQyWZHWp3X2ONrcxo--E1UXkgPJrTTzkk8EyMFzpTOpKAy-srC4QDWmKzPF5djFguOX-AT17gvq9eZfrog91GhAi-Dt38gELUSUAdAXBkyuqMErhjxRKNc71c9CVcERpxS6iKwU2As",
-//     viewLink: "#",
-//   },
-//   {
-//     id: 4,
-//     title: "Earrings",
-//     price: "₹25.00",
-//     img: "https://lh3.googleusercontent.com/aida-public/AB6AXuBxtogccnMXhnGJ7xsnJDPbAkmxltgj0xS9QlWXpYmBdWEIR1vmStTjCsbZweVhnJTZWAa7iPp1-dZHuT4sFmQdL1_oxXTD7WgvF1Uyp1nLd8G_mbWNetT656RPbpil2YuFkMdBQkQqQGF4C3ua9oOASi6V_3y3oS2uWfWJkOL9R_exOQ-Hmc2vLx0i8pIxEq0v1nNe1ku_bBmp4pjzj-LAl7mqjuO83E0QFH6LqS1ASfxslunPn6nPl796btff_kSuGE4ATA9VG6c",
-//     viewLink: "#",
-//   },
-// ];
+
 const logos = [
   {
     alt: "Fashion Live logo",
@@ -444,14 +387,6 @@ const videoUrls = [
 
 const Homepage = () => {
   const [selectedTab, setSelectedTab] = useState("new");
-  // const [category, setCategory] = useState("All");
-  // const [cart, setCart] = useState([])
-  //  const filtered = category === "All" ? allProducts : allProducts.filter(p => p.category === category);
-  //  const addToCart = (product) => {
-  //   if (!cart.find(item => item.id === product.id)) {
-  //     setCart([...cart, product]);
-  //   }
-  // };
 
   const filteredProducts = allProducts.filter(
     (product) => product.category === selectedTab

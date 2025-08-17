@@ -1,14 +1,14 @@
 import React from "react";
-import './Footer.css';
+import "./Footer.css";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import { Link } from "react-router-dom";
 
-const Footer=()=>{
-    return(
-        <>
-              <footer className="hekto-footer">
+const Footer = () => {
+  return (
+    <>
+      <footer className="hekto-footer">
         <div className="footer-container">
           <div className="footer-grid">
             <div className="footer-brand">
@@ -26,15 +26,26 @@ const Footer=()=>{
             <div className="footer-column">
               <h3>Categories</h3>
               <ul>
-                <Link to="/"><li>Home</li></Link>
-               <Link to="/About"> <li>About</li></Link>
-               <Link to="/pages">
-                 <li>Pages</li>
-               </Link>
-              
+                <Link to="/">
+                  <li>Home</li>
+                </Link>
+                <Link to="/About">
+                  {" "}
+                  <li>About</li>
+                </Link>
+                <Link to="/pages">
+                  <li>Pages</li>
+                </Link>
+
                 <li>Products</li>
-               <Link to="/Blogs"> <li>Blogs</li></Link>
-               <Link to="/ContactUs"> <li>Contact us</li></Link>
+                <Link to="/Blogs">
+                  {" "}
+                  <li>Blogs</li>
+                </Link>
+                <Link to="/ContactUs">
+                  {" "}
+                  <li>Contact us</li>
+                </Link>
               </ul>
             </div>
 
@@ -72,7 +83,7 @@ const Footer=()=>{
           </div>
         </div>
       </footer>
-        </>
-    )
-}
+    </>
+  );
+};
 export default Footer;

@@ -154,7 +154,14 @@ background-color: #f2f0ff;
 
 .social-icons {
   font-size: 1.2vw;
+   gap: 1vw;
+   padding-left: 4vw;
+   margin-top: 0vw;
+
 }
+/* .FacebookIcon:hover{
+color: #e91e63;
+} */
 
 
 /* ==============Tabs=========== */

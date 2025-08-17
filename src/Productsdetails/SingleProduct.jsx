@@ -11,6 +11,9 @@ import Chiffon from "../assets/products/Chiffon.png";
 import { useParams } from "react-router-dom";
 import { useState } from "react";
 import { Button } from "@mui/material";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import InstagramIcon from "@mui/icons-material/Instagram";
 import { FavoriteBorder } from "@mui/icons-material";
 import { useCart } from "../components/cartcontext/CartContext";
 
@@ -141,7 +144,7 @@ const SingleProduct = () => {
           <h2>{productimage.name}</h2>
 
           <div className="rating">
-            {"⭐"} <span>{productimage.rating}</span>
+            {"⭐"} <span>({productimage.rating})</span>
           </div>
 
           <div className="price">
@@ -149,13 +152,13 @@ const SingleProduct = () => {
             <span className="old">₹32.00</span>
           </div>
 
-          <div className="label">Color:{productimage.color}</div>
+          <div className="label">Color: {productimage.color}</div>
 
           <p className="description">
             {productimage.description ||
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."}
           </p>
-          <p className="price-offer">Offer:{productimage.offer}</p>
+          <p className="price-offer">Offer: {productimage.offer}</p>
 
           <div className="buttons">
             <button className="add-to-cart" onClick={()=>addToCart(productimage)}>Add To Cart</button>
@@ -164,14 +167,13 @@ const SingleProduct = () => {
 
           <div className="extra-info">
             <p>
-              <strong>Categories:</strong> Bows, Accessories
+              <strong>Categories: </strong> Bows, Accessories
             </p>
             <p>
-              <strong>Tags:</strong> Gift, Ribbon, Fashion
+              <strong>Tags: </strong> Gift, Ribbon, Fashion
             </p>
             <p>
-              <strong>Share:</strong>{" "}
-              {/* <span className="social-icons">🔵 🟣 ⚫</span> */}
+              <strong>Share:  <FacebookIcon style={{fontSize:"1vw"}} />  <TwitterIcon  style={{fontSize:"1vw"}}/>  <InstagramIcon style={{fontSize:"1vw"}} /> </strong>
             </p>
           </div>
         </div>

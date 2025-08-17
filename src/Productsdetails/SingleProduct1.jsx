@@ -3,6 +3,9 @@ import "./SingleProduct1.css";
 import { useParams } from "react-router-dom";
 import { useState } from "react";
 import {useCart} from "../components/cartcontext/CartContext.jsx";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import InstagramIcon from "@mui/icons-material/Instagram";
 
 const SingleProduct1 = () => {
   const { id } = useParams();
@@ -140,7 +143,7 @@ const productimage2 = Product2.find((p) => p.id === Number(id));
               <strong>Tags:</strong> Gift, Ribbon, Fashion
             </p>
             <p>
-              <strong>Share:</strong>{" "}
+              <strong>Share:  <FacebookIcon style={{fontSize:"1vw"}} />  <TwitterIcon  style={{fontSize:"1vw"}}/>  <InstagramIcon style={{fontSize:"1vw"}} /> </strong>
             </p>
           </div>
         </div>

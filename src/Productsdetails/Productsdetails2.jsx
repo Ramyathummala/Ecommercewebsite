@@ -234,7 +234,7 @@ const Productsdetails2 = () => {
                 </p>
                 <div className="product2-rating">
                   {[...Array(5)].map((_, i) => (
-                    <FaStar
+                    <FaStar className="mobile-star"
                       key={i}
                       color={i < product.rating ? "#ffc107" : "#e4e5e9"}
                       size={50}

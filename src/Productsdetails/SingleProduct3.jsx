@@ -4,6 +4,9 @@ import { useParams } from "react-router-dom";
 import clawclip from "../assets/all-products/clowclip.png";
 import clip1 from "../assets/all-products/clip1.png";
 import { useCart } from "../components/cartcontext/CartContext";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import InstagramIcon from "@mui/icons-material/Instagram";
 
 const SingleProduct3 = () => {
   const { id } = useParams();
@@ -92,7 +95,7 @@ const SingleProduct3 = () => {
               <strong>Tags:</strong> Gift, Ribbon, Fashion
             </p>
             <p>
-              <strong>Share:</strong>{" "}
+              <strong>Share:  <FacebookIcon style={{fontSize:"1vw"}} />  <TwitterIcon  style={{fontSize:"1vw"}}/>  <InstagramIcon style={{fontSize:"1vw"}} /> </strong>
             </p>
           </div>
         </div>

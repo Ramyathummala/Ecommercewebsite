@@ -1,173 +1,154 @@
 .aboutus-container {
-  /* padding: 4vw 6vw; */
   background-color: #ffffff;
   font-family: 'Poppins', sans-serif;
 }
 
+/* ---------- Header ---------- */
 .aboutus-header {
   background-color: #f6f4fe;
-  padding: 0.5vw 4vw;
-  border-radius: 1vw;
-  margin-bottom: 4vw;
+  padding: 4vw;
+  border-radius: 2vw;
+  margin-bottom: 6vw;
+  text-align: center;
 }
 
 .aboutus-header h2 {
-  font-size: 2.5vw;
-  font-weight: 700;
-  color: #0b0757;
-  padding-left: 3vw;
-}
-
-.aboutus-header p {
-  margin-top: 1vw;
-  font-size: 1vw;
-  color: #444;
-  padding-left: 3vw;
-}
-
-/* .dot {
-  color: #b1b1b1;
-  margin: 0 0.5vw;
-}
-
-.active {
-  color: hotpink;
-  font-weight: 600;
-} */
-
-.aboutus-content {
-  display: flex;
-  align-items: center;
-  gap: 4vw;
-  flex-wrap: wrap;
-  padding-left: 20vw;
-}
-
-.aboutus-image img {
-  max-width: 40vw;
-  height: 20vw;
-  width: 100%;
-  border-radius: 1vw;
-  box-shadow: 1vw 1vw 0 #2f2de4;
-}
-
-.aboutus-text {
-  max-width: 45vw;
-}
-
-.aboutus-text h3 {
-  font-size: 2vw;
+  font-size: 6vw;
   font-weight: 700;
   color: #0b0757;
   margin-bottom: 2vw;
-  line-height: 2.8vw;
+}
+
+.aboutus-header p {
+  font-size: 3.5vw;
+  color: #444;
+}
+
+/* ---------- About Section ---------- */
+.aboutus-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6vw;
+  padding: 0 6vw;
+  margin-bottom: 6vw;
+}
+
+.aboutus-image img {
+  max-width: 90vw;
+  height: auto;
+  border-radius: 3vw;
+  box-shadow: 2vw 2vw 0 #2f2de4;
+}
+
+.aboutus-text {
+  max-width: 90vw;
+  text-align: center;
+}
+
+.aboutus-text h3 {
+  font-size: 5vw;
+  font-weight: 700;
+  color: #0b0757;
+  margin-bottom: 4vw;
+  line-height: 6vw;
 }
 
 .aboutus-text p {
-  font-size: 1vw;
+  font-size: 3.5vw;
   color: #6c6c6c;
-  line-height: 1.6vw;
-  margin-bottom: 2.5vw;
+  line-height: 5vw;
+  margin-bottom: 4vw;
 }
 
 .aboutus-text button {
-  padding: 1vw 2vw;
+  padding: 3vw 6vw;
   background-color: #ff007f;
   border: none;
   color: white;
-  /* border-radius: 0.6vw; */
   font-weight: 600;
-  font-size: 1vw;
+  font-size: 3.5vw;
   cursor: pointer;
-  transition: background-color 0.3s ease;
-  margin: 1vw;
+  border-radius: 1vw;
 }
 
 .aboutus-text button:hover {
   background-color: #d6006d;
 }
-/* =================== */
 
+/* ---------- Features Section ---------- */
 .features {
-  padding: 4vw;
+  padding: 6vw 4vw;
   text-align: center;
   background-color: #fff;
 }
 
 .features-title {
-  font-size: 2.5vw;
+  font-size: 6vw;
   font-weight: bold;
-  margin-bottom: 3vw;
+  margin-bottom: 6vw;
   color: #000;
 }
 
 .features-grid {
   display: flex;
-  justify-content: center;
-  gap: 2vw;
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 6vw;
+  align-items: center;
 }
 
 .feature-card {
-  width: 18vw;
-  min-width: 200px;
+  width: 90vw;
   background-color: #fff;
-  padding: 2vw 1vw;
-  border-radius: 1vw;
-  box-shadow: 0 0.2vw 1vw rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-}
-
-.feature-card:hover {
-  transform: translateY(-0.5vw);
+  padding: 6vw 4vw;
+  border-radius: 3vw;
+  box-shadow: 0 2vw 6vw rgba(0, 0, 0, 0.1);
 }
 
 .feature-icon {
-  width: 4vw;
-  height: 4vw;
-  margin-bottom: 1.5vw;
+  width: 12vw;
+  height: 12vw;
+  margin-bottom: 4vw;
 }
 
 .feature-title {
-  font-size: 1.2vw;
+  font-size: 4.5vw;
   font-weight: 600;
   color: #031b4e;
-  margin-bottom: 1vw;
+  margin-bottom: 2vw;
 }
 
 .feature-desc {
-  font-size: 1vw;
+  font-size: 3.5vw;
   color: #555;
-  line-height: 1.5;
+  line-height: 5vw;
 }
 
-/* .highlight {
-  border-bottom: 0.3vw solid orange;
-} */
-/* ===================carousel============= */
+/* ---------- Client Carousel ---------- */
 .client-carousel {
   text-align: center;
-  padding: 4vw 9vw;
+  padding: 8vw 4vw;
   background-color: #faf9ff;
-  margin-bottom: 2vw;
+  margin-bottom: 6vw;
 }
 
 .carousel-title {
-  font-size: 2.6vw;
+  font-size: 6vw;
   font-weight: bold;
-  margin-bottom: 2vw;
+  margin-bottom: 6vw;
 }
 
 .carousel-images {
   display: flex;
   justify-content: center;
-  gap: 1vw;
-  margin-bottom: 1.5vw;
+  gap: 3vw;
+  margin-bottom: 4vw;
+  flex-wrap: wrap;
 }
 
 .carousel-img {
-  width: 4.5vw;
-  height: 4.5vw;
+  width: 14vw;
+  height: 14vw;
   object-fit: cover;
   border-radius: 10%;
   border: 2px solid transparent;
@@ -176,47 +157,45 @@
   transition: all 0.3s ease;
 }
 
-.carousel-img:hover {
-  opacity: 0.8;
-}
-
 .carousel-img.active {
-  width: 5.5vw;
-  height: 5.5vw;
+  width: 18vw;
+  height: 18vw;
   border-color: #6a5acd;
   opacity: 1;
   box-shadow: 0px 4px 10px rgba(106, 90, 205, 0.4);
 }
 
 .carousel-name {
-  font-size: 1.5vw;
-  margin-bottom: 0.5vw;
+  font-size: 4.5vw;
+  margin-bottom: 2vw;
 }
 
 .carousel-role {
-  font-size: 1.2vw;
+  font-size: 3.5vw;
   color: gray;
-  margin-bottom: 1.5vw;
+  margin-bottom: 3vw;
 }
 
 .carousel-text {
-  font-size: 1vw;
-  line-height: 1.6;
+  font-size: 3.5vw;
+  line-height: 5vw;
   color: #555;
-  max-width: 50vw;
+  max-width: 90vw;
   margin: 0 auto;
 }
-/* ================== */
+
+/* ---------- Indicators ---------- */
 .carousel-indicators {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0.5vw;
-  margin-top: 1vw; 
+  gap: 2vw;
+  margin-top: 4vw;
 }
+
 .indicator-dot {
-  width: 2.5vw;
-  height: 0.4vw;
+  width: 6vw;
+  height: 1.2vw;
   border-radius: 50px;
   background: linear-gradient(to right, #f78ca0, #f9748f);
   opacity: 0.5;
@@ -229,3 +208,119 @@
   background: linear-gradient(to right, #ff3d7f, #ff007f);
 }
 
+/* ---------- Tablets ---------- */
+@media (min-width: 768px) {
+  .aboutus-content {
+    flex-direction: row;
+    text-align: left;
+    padding: 0 10vw;
+  }
+
+  .aboutus-text {
+    max-width: 45vw;
+    text-align: left;
+  }
+
+  .features-grid {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .feature-card {
+    width: 40vw;
+  }
+
+  .carousel-img {
+    width: 8vw;
+    height: 8vw;
+  }
+
+  .carousel-img.active {
+    width: 10vw;
+    height: 10vw;
+  }
+}
+
+/* ---------- Desktop ---------- */
+@media (min-width: 1024px) {
+  .aboutus-header h2 {
+    font-size: 2.5vw;
+  }
+  .aboutus-header p {
+    font-size: 1vw;
+  }
+
+  .aboutus-content {
+    gap: 4vw;
+    padding-left: 20vw;
+  }
+
+  .aboutus-image img {
+    max-width: 40vw;
+    height: 20vw;
+    box-shadow: 1vw 1vw 0 #2f2de4;
+  }
+
+  .aboutus-text h3 {
+    font-size: 2vw;
+    line-height: 2.8vw;
+  }
+
+  .aboutus-text p {
+    font-size: 1vw;
+    line-height: 1.6vw;
+  }
+
+  .aboutus-text button {
+    font-size: 1vw;
+    padding: 1vw 2vw;
+  }
+
+  .features-title {
+    font-size: 2.5vw;
+  }
+
+  .feature-card {
+    width: 18vw;
+  }
+
+  .feature-title {
+    font-size: 1.2vw;
+  }
+
+  .feature-desc {
+    font-size: 1vw;
+  }
+
+  .carousel-title {
+    font-size: 2.6vw;
+  }
+
+  .carousel-img {
+    width: 4.5vw;
+    height: 4.5vw;
+  }
+
+  .carousel-img.active {
+    width: 5.5vw;
+    height: 5.5vw;
+  }
+
+  .carousel-name {
+    font-size: 1.5vw;
+  }
+
+  .carousel-role {
+    font-size: 1.2vw;
+  }
+
+  .carousel-text {
+    font-size: 1vw;
+  }
+
+  .indicator-dot {
+    width: 2.5vw;
+    height: 0.4vw;
+  }
+}
